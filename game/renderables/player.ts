@@ -56,7 +56,7 @@ class PlayerEntity extends me.Entity {
         me.input.bindGamepad(0, {type:"axes", code: me.input.GAMEPAD.AXES.LY, threshold: -0.5}, me.input.KEY.UP);
 
         // set a renderable
-        const sprite = game.valueOf().texture.createAnimationFromName([
+        const sprite = game.texture.createAnimationFromName([
             "walk0001.png", "walk0002.png", "walk0003.png",
             "walk0004.png", "walk0005.png", "walk0006.png",
             "walk0007.png", "walk0008.png", "walk0009.png",

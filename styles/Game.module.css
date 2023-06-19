@@ -16,3 +16,49 @@
     width: 100%;
     margin: auto;
 }
+
+.levels {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: calc(100% - 64px);
+    height: auto;
+    margin: 0 32px;
+}
+
+.level {
+    width: 22.5%;
+    border: 1px solid seashell;
+    border-radius: 16px;
+    height: 150px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.levelInfo {
+    border-top: 1px solid seagreen;
+    border-bottom: 1px solid seagreen;
+    position: absolute;
+    height: 15%;
+    bottom: 5%;
+    left: 10%;
+    right: 10%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.level:hover {
+    background: seashell;
+    cursor: pointer;
+    color: black !important;
+}
+
+.level:hover > h3,
+.level:hover > .levelInfo p {
+    color: black !important;
+}

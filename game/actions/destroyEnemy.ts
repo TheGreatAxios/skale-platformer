@@ -1,13 +1,13 @@
 import ContractConfiguration from "../../contracts/deployments/nebula/Enemies.json";
 import { getContract } from 'viem';
-import { inGameSigner } from "../blockchain/inGameSigner";
+import game from "../game";
 import { getAccount } from "@wagmi/core";
 
 const contract = getContract({
     address: ContractConfiguration.address as `0x${string}`,
     abi: ContractConfiguration.abi,
-    publicClient: inGameSigner.valueOf().client,
-    walletClient: inGameSigner.valueOf().wallet,
+    publicClient: game.signer.client,
+    walletClient: game.signer.wallet,
 })
 
 
@@ -15,8 +15,8 @@ export async function destroyEnemy(tokenId: bigint) {
     const { address } = getAccount();    
     
     const { request } = await contract.simulate.destroy([tokenId, address], {
-        nonce: inGameSigner.value.nonce++
+        nonce: game.signer.nonce++
     });
 
-    await inGameSigner.valueOf().wallet.writeContract(request);
+    await game.signer.wallet.writeContract(request);
 }

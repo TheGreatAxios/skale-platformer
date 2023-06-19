@@ -153,7 +153,7 @@ export class SlimeEnemyEntity extends PathEnemyEntity {
         this.tokenId = 2;
 
         // set a renderable
-        const sprite = game.valueOf().texture.createAnimationFromName([
+        const sprite = game.texture.createAnimationFromName([
             "slime_normal.png", "slime_walk.png", "slime_dead.png"
         ]) as me.Sprite;
 
@@ -198,7 +198,7 @@ export class FlyEnemyEntity extends PathEnemyEntity {
         this.tokenId = 1;
 
         // set a renderable
-        const sprite = game.valueOf().texture.createAnimationFromName([
+        const sprite = game.texture.createAnimationFromName([
             "fly_normal.png", "fly_fly.png", "fly_dead.png"
         ]);
 

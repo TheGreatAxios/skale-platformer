@@ -1,0 +1,34 @@
+[
+    {
+        "name": "Storm the Castle",
+        "game": "Melon Man",
+        "difficulty": 1,
+        "track": "dst-gameforest",
+        "map": "map1",
+        "key": "melon_man"
+    },
+    {
+        "name": "The Hill",
+        "game": "Melon Man",
+        "difficulty": 1,
+        "track": "dst-gameforest",
+        "map": "map2",
+        "key": "melon_man"
+    },
+    {
+        "name": "Invisible Barriers",
+        "game": "Melon Man",
+        "difficulty": 2,
+        "track": "dst-gameforest",
+        "map": "map3",
+        "key": "melon_man"
+    },
+    {
+        "name": "The Gauntlet",
+        "game": "Melon Man",
+        "difficulty": 2,
+        "track": "dst-gameforest",
+        "map": "map4",
+        "key": "melon_man"
+    }
+]

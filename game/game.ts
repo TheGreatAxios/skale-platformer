@@ -1,38 +1,16 @@
-/**
- * hold all game specific data
- */
-
-import { Signal } from "@preact/signals-react";
 import { TextureAtlas } from "melonjs";
+import InGameSigner from "./blockchain/inGameSigner";
 
-type Game = {
-    currentLevel: number | undefined,
-    data: {
-        gold: {
-            balance: number | bigint
-        },
-        score: number | bigint
-    },
-    texture: TextureAtlas
-    ,
-    nonce: number | bigint
+class Game {
+    public isActive: boolean = false;
+    public texture: TextureAtlas;
+    public nonce: number | bigint;
+    public signer = InGameSigner;
 
+    constructor() {
+        this.texture = new TextureAtlas({}),
+        this.nonce = 0;
+    }
 }
 
-const _baseGame = {
-
-    /**
-     * object where to store game global scole
-     */
-    currentLevel: undefined,
-    data : {
-        gold: {
-            balance : 0,
-        },
-        score : 0
-    },
-    texture: new TextureAtlas({}),
-    nonce: 0
-} satisfies Game;
-
-export default new Signal<Game>(_baseGame);
+export default new Game();

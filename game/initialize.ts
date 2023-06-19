@@ -11,11 +11,15 @@ import {
 } from "melonjs";
 import resources from "./resources";
 import { CoinEntity, CompleteLevel, FlyEnemyEntity, PlayerEntity, SlimeEnemyEntity } from "./renderables";
-import { Levels, GameOver, LevelComplete } from "./levels";
+import { 
+    createLevel,
+    type GameKey
+} from "./games";
 
 import game from "./game";
+import { EndGame } from "./stages/end_game";
 
-export default function initialize(levelIndex: number) {
+export default function initialize(args: any[], gameKey: GameKey) {
 
     if (
         !video.init(800, 600, {
@@ -37,12 +41,9 @@ export default function initialize(levelIndex: number) {
     // set all ressources to be loaded
     loader.preload(resources, () => {
         // set the "Play/Ingame" Screen Object
-        const Level = Levels[levelIndex];
-        state.set(state.PLAY, new Level());
-        state.set(state.GAMEOVER, new GameOver());
-        state.set(state.GAME_END, new LevelComplete());
+        state.set(state.PLAY, createLevel(args, gameKey));
+        state.set(state.GAME_END, new EndGame());
         
-        // set the fade transition effect
         state.transition("fade", "#FFFFFF", 250);
 
         // register our objects entity in the object pool
@@ -50,14 +51,17 @@ export default function initialize(levelIndex: number) {
         pool.register("SlimeEntity", SlimeEnemyEntity);
         pool.register("FlyEntity", FlyEnemyEntity);
         pool.register("CoinEntity", CoinEntity, true);
-        pool.register("me.Trigger", CompleteLevel);
+        // pool.register("me.Trigger", CompleteLevel);
 
         // load the texture atlas file
         // this will be used by renderable object later
-        game.value.texture = new TextureAtlas(
+        const txt = new TextureAtlas(
             loader.getJSON("texture"),
             loader.getImage("texture")
         );
+        console.log("Txt: ", txt);
+        
+        game.texture = txt;
 
         // game.
 

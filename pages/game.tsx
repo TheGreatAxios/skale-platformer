@@ -1,11 +1,12 @@
-import { useEffect, useState } from "react"
+'use client';
+
 import initialize from "../game/initialize"
 import { Metadata, NextPage } from "next";
 import styles from "../styles/Game.module.css";
-import { Navigation } from "../components";
-import { inGameSigner } from "../game/blockchain/inGameSigner";
-import { useSignal } from "@preact/signals-react";
-import game from "../game/game";
+import { useEffect, useState } from "react";
+import levels from "../levels.json";
+import inGameSigner from "../game/blockchain/inGameSigner";
+import { start } from "repl";
 
 export const metadata: Metadata = {
     viewport: {
@@ -19,24 +20,30 @@ export const metadata: Metadata = {
 
 const Game: NextPage = () => {
 
-    const startLevel = (levelIndex: number) => (e: { preventDefault: () => void; }) => {
-        e.preventDefault();
-        if (game.valueOf().currentLevel === undefined) {
-            game.value.currentLevel = levelIndex;
-            initialize(levelIndex);
+    const [isReady, setIsReady] = useState<boolean>(false);
+    const [startGame, setStartGame] = useState<boolean>(false);
+
+    useEffect(() => {
+        if (!isReady) inGameSigner.setupSFUEL()
+            .then((res) => {
+                setIsReady(res);
+            })
+            .catch((err) => {
+                console.log(err);
+                throw err;
+            })
+    }, [isReady]);
+
+    useEffect(() => {
+        if (isReady && !startGame) {
+            setStartGame(true);
+            initialize([levels[0].map, levels[0].track], "melon_man");
         }
-    }
+    }, [isReady])
 
     return (
         <div className={styles.container}>
-            <Navigation />
-            {game.valueOf().currentLevel === undefined
-                && (
-                    <div className={styles.grid}>
-                        <button onClick={startLevel(0)}>Start Level</button>
-                    </div>
-                )
-            }
+            {!isReady && <h2>Loading SKALE Platformer...</h2>}
             <div className={styles.screen} id="screen"></div>
         </div>
     )

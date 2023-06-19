@@ -117,7 +117,7 @@
                         {
                          "name":"to",
                          "type":"string",
-                         "value":"map1"
+                         "value":"map2"
                         }],
                  "rotation":0,
                  "type":"",
@@ -139,7 +139,7 @@
                         }],
                  "rotation":0,
                  "type":"",
-                 "visible":true,
+                 "visible":false,
                  "width":70,
                  "x":1095,
                  "y":980
@@ -819,7 +819,7 @@
  "tilesets":[
         {
          "firstgid":1,
-         "source":"tileset.tsx"
+         "source":"tileset.json"
         }],
  "tilewidth":35,
  "type":"map",
