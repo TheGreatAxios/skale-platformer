@@ -1,7 +1,6 @@
 import type { NextPage } from "next";
-import { Navigation } from "../components";
 import Link from "next/link";
-import styles from "../styles/Home.module.css";
+import styles from "../styles/Index.module.css";
 
 /** Icons */
 import EmojiPeopleIcon from '@mui/icons-material/EmojiPeople';
@@ -27,7 +26,7 @@ const Home: NextPage = () => {
 
     if (!isReady) {
         return (
-            <div className={styles.container}>
+            <div className={styles.notConnectedContainer}>
                 <h1>SKALE Platformer</h1>
                 <ConnectButton />
             </div>
