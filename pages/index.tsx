@@ -1,3 +1,5 @@
+'use client';
+
 import type { NextPage } from "next";
 import Link from "next/link";
 import styles from "../styles/Index.module.css";
@@ -22,7 +24,7 @@ const Home: NextPage = () => {
             setIsReady(true);
         }
     }, [isConnected, address])
-
+        
 
     if (!isReady) {
         return (

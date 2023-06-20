@@ -43,7 +43,7 @@ const Game: NextPage = () => {
 
     return (
         <div className={styles.container}>
-            {!isReady && <h2>Loading SKALE Platformer...</h2>}
+            {!isReady && <h2>Loading sFUEL and Game</h2>}
             <div className={styles.screen} id="screen"></div>
         </div>
     )
