@@ -1,0 +1,52 @@
+enum ContractName {
+  Gold,
+  Enemies
+}
+
+type Block @entity {
+  id: ID!
+  height: Int!
+  hash: String!
+  parentHash: String!
+  nonce: BigInt
+  sha3Uncles: String!
+  logsBloom: String!
+  transactionsRoot: String!
+  stateRoot: String!
+  receiptsRoot: String!
+  miner: String!
+  difficulty: String
+  totalDifficulty: String
+  extraData: String!
+  size: BigInt!
+  gasLimit: BigInt!
+  gasUsed: BigInt!
+  timestamp: BigInt!
+  mixHash: String
+  baseFeePerGas: BigInt
+}
+
+type Transaction @entity {
+  id: ID!
+  blockNumber: Int!
+  blockHash: String!
+  from: String
+  gas: BigInt!
+  gasPrice: BigInt
+  hash: String!
+  input: String!
+  nonce: BigInt!
+  to: String!
+  index: Int!
+  value: BigInt!
+  type: Int
+  chainId: Int
+  v: BigInt!
+  r: String!
+  s: String!
+  maxPriorityFeePerGas: BigInt
+  maxFeePerGas: BigInt
+  yParity: Int
+  status: Int
+  contractName: ContractName
+}

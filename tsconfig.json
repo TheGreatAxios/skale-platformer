@@ -16,5 +16,5 @@
     "incremental": true
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "contracts/deployments"],
-  "exclude": ["node_modules", "contracts"]
+  "exclude": ["node_modules", "contracts", "indexer", "graphql-parser"]
 }
