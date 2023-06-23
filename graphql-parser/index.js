@@ -6,7 +6,7 @@ const endpoint = 'https://squid.subsquid.io/skale-platformer/v/v1/graphql';
 
 const query = `
   query MyQuery {
-    transactions(where: {blockNumber_gt: 2140000, blockNumber_lt: 2144064}) {
+    transactions(where: {blockNumber_gt: 2147500}) {
       input
     }
   }
