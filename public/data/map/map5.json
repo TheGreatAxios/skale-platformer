@@ -145,7 +145,7 @@
                 {
                  "height":10.354110581901,
                  "id":73,
-                 "name":"",
+                 "name":"CoinEntity",
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -156,7 +156,7 @@
                 {
                  "height":0,
                  "id":76,
-                 "name":"",
+                 "name":"CoinEntity",
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -167,7 +167,7 @@
                 {
                  "height":0,
                  "id":77,
-                 "name":"",
+                 "name":"CoinEntity",
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -178,7 +178,7 @@
                 {
                  "height":2.07082211638021,
                  "id":78,
-                 "name":"",
+                 "name":"CoinEntity",
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -189,7 +189,7 @@
                 {
                  "height":0,
                  "id":79,
-                 "name":"",
+                 "name":"CoinEntity",
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -200,7 +200,7 @@
                 {
                  "height":0,
                  "id":80,
-                 "name":"",
+                 "name":"CoinEntity",
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -211,7 +211,7 @@
                 {
                  "height":10.3541,
                  "id":81,
-                 "name":"",
+                 "name":"CoinEntity",
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -222,7 +222,7 @@
                 {
                  "height":0,
                  "id":82,
-                 "name":"",
+                 "name":"CoinEntity",
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -233,7 +233,7 @@
                 {
                  "height":0,
                  "id":83,
-                 "name":"",
+                 "name":"CoinEntity",
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -244,7 +244,7 @@
                 {
                  "height":2.07082,
                  "id":84,
-                 "name":"",
+                 "name":"CoinEntity",
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -255,7 +255,7 @@
                 {
                  "height":0,
                  "id":85,
-                 "name":"",
+                 "name":"CoinEntity",
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -266,7 +266,7 @@
                 {
                  "height":10.3541,
                  "id":86,
-                 "name":"",
+                 "name":"CoinEntity",
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -277,7 +277,7 @@
                 {
                  "height":0,
                  "id":87,
-                 "name":"",
+                 "name":"CoinEntity",
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -288,7 +288,7 @@
                 {
                  "height":0,
                  "id":88,
-                 "name":"",
+                 "name":"CoinEntity",
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -299,7 +299,7 @@
                 {
                  "height":2.07082,
                  "id":89,
-                 "name":"",
+                 "name":"CoinEntity",
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -310,7 +310,7 @@
                 {
                  "height":0,
                  "id":90,
-                 "name":"",
+                 "name":"CoinEntity",
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -321,7 +321,7 @@
                 {
                  "height":10.3541,
                  "id":91,
-                 "name":"",
+                 "name":"CoinEntity",
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -332,7 +332,7 @@
                 {
                  "height":0,
                  "id":92,
-                 "name":"",
+                 "name":"CoinEntity",
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -343,7 +343,7 @@
                 {
                  "height":0,
                  "id":93,
-                 "name":"",
+                 "name":"CoinEntity",
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -354,7 +354,7 @@
                 {
                  "height":2.07082,
                  "id":94,
-                 "name":"",
+                 "name":"CoinEntity",
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -365,7 +365,7 @@
                 {
                  "height":0,
                  "id":95,
-                 "name":"",
+                 "name":"CoinEntity",
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -376,7 +376,7 @@
                 {
                  "height":65.1840490797546,
                  "id":96,
-                 "name":"",
+                 "name":"CoinEntity",
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -387,7 +387,7 @@
                 {
                  "height":65.184,
                  "id":97,
-                 "name":"",
+                 "name":"CoinEntity",
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -398,7 +398,7 @@
                 {
                  "height":65.184,
                  "id":98,
-                 "name":"",
+                 "name":"CoinEntity",
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -409,7 +409,7 @@
                 {
                  "height":65.184,
                  "id":99,
-                 "name":"",
+                 "name":"CoinEntity",
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -420,7 +420,7 @@
                 {
                  "height":65.184,
                  "id":100,
-                 "name":"",
+                 "name":"CoinEntity",
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -431,7 +431,7 @@
                 {
                  "height":65.184,
                  "id":101,
-                 "name":"",
+                 "name":"CoinEntity",
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -442,7 +442,7 @@
                 {
                  "height":10.3541,
                  "id":111,
-                 "name":"",
+                 "name":"CoinEntity",
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -453,7 +453,7 @@
                 {
                  "height":0,
                  "id":112,
-                 "name":"",
+                 "name":"CoinEntity",
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -464,7 +464,7 @@
                 {
                  "height":0,
                  "id":113,
-                 "name":"",
+                 "name":"CoinEntity",
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -475,7 +475,7 @@
                 {
                  "height":2.07082,
                  "id":114,
-                 "name":"",
+                 "name":"CoinEntity",
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -486,7 +486,7 @@
                 {
                  "height":0,
                  "id":115,
-                 "name":"",
+                 "name":"CoinEntity",
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -497,7 +497,7 @@
                 {
                  "height":10.3541,
                  "id":116,
-                 "name":"",
+                 "name":"CoinEntity",
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -508,7 +508,7 @@
                 {
                  "height":0,
                  "id":117,
-                 "name":"",
+                 "name":"CoinEntity",
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -519,7 +519,7 @@
                 {
                  "height":0,
                  "id":118,
-                 "name":"",
+                 "name":"CoinEntity",
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -530,7 +530,7 @@
                 {
                  "height":2.07082,
                  "id":119,
-                 "name":"",
+                 "name":"CoinEntity",
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -541,7 +541,7 @@
                 {
                  "height":0,
                  "id":120,
-                 "name":"",
+                 "name":"CoinEntity",
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -552,7 +552,7 @@
                 {
                  "height":10.3541,
                  "id":121,
-                 "name":"",
+                 "name":"CoinEntity",
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -563,7 +563,7 @@
                 {
                  "height":0,
                  "id":122,
-                 "name":"",
+                 "name":"CoinEntity",
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -574,7 +574,7 @@
                 {
                  "height":0,
                  "id":123,
-                 "name":"",
+                 "name":"CoinEntity",
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -585,7 +585,7 @@
                 {
                  "height":2.07082,
                  "id":124,
-                 "name":"",
+                 "name":"CoinEntity",
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -596,7 +596,7 @@
                 {
                  "height":0,
                  "id":125,
-                 "name":"",
+                 "name":"CoinEntity",
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -607,7 +607,7 @@
                 {
                  "height":10.3541,
                  "id":126,
-                 "name":"",
+                 "name":"CoinEntity",
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -618,7 +618,7 @@
                 {
                  "height":0,
                  "id":127,
-                 "name":"",
+                 "name":"CoinEntity",
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -629,7 +629,7 @@
                 {
                  "height":0,
                  "id":128,
-                 "name":"",
+                 "name":"CoinEntity",
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -640,7 +640,7 @@
                 {
                  "height":2.07082,
                  "id":129,
-                 "name":"",
+                 "name":"CoinEntity",
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -651,7 +651,7 @@
                 {
                  "height":0,
                  "id":130,
-                 "name":"",
+                 "name":"CoinEntity",
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -674,7 +674,7 @@
                 {
                  "height":35.9066427289048,
                  "id":108,
-                 "name":"",
+                 "name":"SlimeEntity",
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -685,7 +685,7 @@
                 {
                  "height":34.1113105924596,
                  "id":109,
-                 "name":"",
+                 "name":"SlimeEntity",
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -695,19 +695,8 @@
                 }, 
                 {
                  "height":35.9066,
-                 "id":110,
-                 "name":"",
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":710.952,
-                 "x":269.299583482944,
-                 "y":666.068243985637
-                }, 
-                {
-                 "height":35.9066,
                  "id":145,
-                 "name":"",
+                 "name":"SlimeEntity",
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -718,7 +707,7 @@
                 {
                  "height":35.9066,
                  "id":146,
-                 "name":"",
+                 "name":"SlimeEntity",
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -729,7 +718,7 @@
                 {
                  "height":35.9066,
                  "id":147,
-                 "name":"",
+                 "name":"SlimeEntity",
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -740,7 +729,7 @@
                 {
                  "height":35.9066,
                  "id":148,
-                 "name":"",
+                 "name":"SlimeEntity",
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -777,7 +766,7 @@
                 {
                  "height":35.5265027710672,
                  "id":102,
-                 "name":"",
+                 "name":"FlyEntity",
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -788,7 +777,7 @@
                 {
                  "height":35.5265,
                  "id":104,
-                 "name":"",
+                 "name":"FlyEntity",
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -799,7 +788,7 @@
                 {
                  "height":35.5265,
                  "id":105,
-                 "name":"",
+                 "name":"FlyEntity",
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -810,7 +799,7 @@
                 {
                  "height":35.5265,
                  "id":106,
-                 "name":"",
+                 "name":"FlyEntity",
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -821,7 +810,7 @@
                 {
                  "height":35.5265,
                  "id":107,
-                 "name":"",
+                 "name":"FlyEntity",
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -832,7 +821,7 @@
                 {
                  "height":38.9396715632298,
                  "id":137,
-                 "name":"",
+                 "name":"FlyEntity",
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -843,7 +832,7 @@
                 {
                  "height":38.9396715632298,
                  "id":138,
-                 "name":"",
+                 "name":"FlyEntity",
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -854,7 +843,7 @@
                 {
                  "height":38.9397,
                  "id":139,
-                 "name":"",
+                 "name":"FlyEntity",
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -865,7 +854,7 @@
                 {
                  "height":38.9397,
                  "id":140,
-                 "name":"",
+                 "name":"FlyEntity",
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -876,7 +865,7 @@
                 {
                  "height":38.9397,
                  "id":141,
-                 "name":"",
+                 "name":"FlyEntity",
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -887,7 +876,7 @@
                 {
                  "height":38.9397,
                  "id":142,
-                 "name":"",
+                 "name":"FlyEntity",
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -898,7 +887,7 @@
                 {
                  "height":38.9397,
                  "id":143,
-                 "name":"",
+                 "name":"FlyEntity",
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -909,7 +898,7 @@
                 {
                  "height":38.9397,
                  "id":144,
-                 "name":"",
+                 "name":"FlyEntity",
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -920,7 +909,7 @@
                 {
                  "height":598.852063325563,
                  "id":149,
-                 "name":"",
+                 "name":"FlyEntity",
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -974,7 +963,7 @@
                         }],
                  "rotation":0,
                  "type":"platform",
-                 "visible":true,
+                 "visible":false,
                  "width":0,
                  "x":1750,
                  "y":770
