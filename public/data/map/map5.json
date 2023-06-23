@@ -763,7 +763,7 @@
          "name":"Front Layer",
          "opacity":1,
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":54,
          "x":0,
          "y":0
